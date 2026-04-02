@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[dependencies.heat_lamp]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.heat_lamp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+modId="heat_lamp"
+version="1.0.0"
+displayName="Heat Lamp"
+description='''
+A custom mod for the InfrastructureSickos Minecraft server featuring Heat Lamp mechanics.
+'''
