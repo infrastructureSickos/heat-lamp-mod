@@ -72,7 +72,7 @@ jobs:
       - name: Trigger modpack update
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: brooswit/minecraft-modpack
+          token: ${{ secrets.MODPACK_DISPATCH_TOKEN }}
+          repository: infrastructureSickos/minecraft-modpack
           event-type: heat-lamp-updated
           client-payload: '{"version": "${{ github.ref_name }}"}'
